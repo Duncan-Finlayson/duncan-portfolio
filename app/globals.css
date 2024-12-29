@@ -17,6 +17,12 @@
   --card: #1d1d1d;
 }
 
+.circle-icon {
+  @apply flex items-center justify-center
+  rounded-full w-11 h-11 md:w-14 md:h-14
+  bg-[#f4ebff] bg-opacity-[12%] absolute;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
