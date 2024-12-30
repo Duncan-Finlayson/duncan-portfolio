@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from './Hero/Hero'
+import Skills from './Skills/Skills'
 
 
 const Sections = () => {
@@ -7,6 +8,7 @@ const Sections = () => {
    md:max-w-screen-lg
     pt-[236px] md:pt-60 mx-auto">
        <Hero /> 
+       <Skills />
     </main>
 }
 
