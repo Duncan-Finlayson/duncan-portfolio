@@ -23,6 +23,10 @@
   bg-[#f4ebff] bg-opacity-[12%] absolute;
 }
 
+.highlight {
+  @apply bg-primary text-white px-5 rounded-[4px]
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
