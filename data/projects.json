@@ -1,0 +1,12 @@
+[
+    {
+        "thumbnail": "/personal_portfolio_thumbnail.png",
+        "title": "Personal Porfolio",
+        "link": {
+            "label": "Personal Portfolio",
+            "url": "https://github.com/Duncan-Finlayson/duncan-portfolio"
+        },
+        "description": "Developed a personal portfolio that displays my work",
+        "languageIcons": ["/css_icon.png", "/html_icon.png", "ts_icon.png", "react_icon.png"]
+    }
+]
