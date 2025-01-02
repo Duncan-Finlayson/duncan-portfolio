@@ -1,6 +1,7 @@
 "use client"
 import React, { useCallback, useEffect, useState } from 'react'
 import cn from 'classnames'
+import Reveal from './Reveal';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -40,6 +41,8 @@ const Navbar = () => {
             alt = "menu icon"
         />
         </button>
+        <Reveal initialY={-20} duration={0.5}>
+
         <nav className={cn("bg-background card-shadow p-3 rounded md:block duration-300 ease-in-out", 
         {
             "opacity-100": isOpen,
@@ -100,7 +103,7 @@ const Navbar = () => {
                     </div>
                 </li>
             </ul>
-        </nav>
+        </nav> </Reveal>
     </div>
   );
 };
