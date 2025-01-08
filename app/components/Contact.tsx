@@ -6,10 +6,13 @@ import Reveal from './Reveal'
 import {motion, useMotionValue} from "framer-motion"
 
 const Contact = () => {
+
+    const ref = useRef<HTMLElement>(null)
+
     const posX = useMotionValue(0)
     const posY = useMotionValue(0)
 
-    const ref = useRef<HTMLElement>(null)
+
 
     const updatePos = (e: MouseEvent) => {
         if (!ref.current) return
@@ -30,7 +33,7 @@ const Contact = () => {
   
   
     return (
-    <Reveal initialY={40} delay = {0.5}>
+    <Reveal initialY={40} delay ={0.5}>
     <section
     ref = {ref}
     id="contact" 
@@ -65,7 +68,8 @@ const Contact = () => {
             </div>
         </div>
     </div>
-    <small>Copyright &copy; Duncan Finlayson 2024</small>
+    <small>Copyright &copy; Duncan Finlayson 2025</small>
+
     <motion.div className="absolute w-64 h-64 bg-gradient-radial from-violet-700/100
     to-transparent rounded-full blur-3xl -z-10 opacity-0 group-hover:opacity-100
     transition duration-300"
@@ -74,7 +78,9 @@ const Contact = () => {
         top: posY,
         transform: "translate(-50%, -50%)",
     }}
-    ></motion.div>
+    >
+    
+    </motion.div>
    </section>
    </Reveal>
   );

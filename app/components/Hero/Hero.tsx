@@ -1,5 +1,6 @@
 import React from 'react'
 import Reveal from '../Reveal'
+import Image from 'next/image'
 
 
 const Hero = () => {
@@ -19,10 +20,40 @@ const Hero = () => {
             Based in London, Ontario
         </p> </Reveal>
         <Reveal initialX={-40} delay={0.2}>
-        <a href="mailto:duncanfinlayson4@gmail.
-        com" className ="self-center bg-primary text-white p-2.5 rounded flex gap2.5 items-center
-         text-sm md:self-start md:text-xl/6">Contact Me! <img src="/arrow_right_icon.svg" alt="Arrow right icon"></img></a></Reveal>
-    </div> {/* Plans of adding a profile picture later */}
+  <div className="flex flex-row gap-4 items-center justify-center md:justify-start">
+    {/* Contact Me Button */}
+        <a
+      href="mailto:duncanfinlayson4@gmail.com"
+      className="bg-primary text-white p-2.5 rounded flex gap-2.5 items-center text-sm md:text-xl/6"
+    >
+      Resume
+      <img src="/mail_icon.svg" alt="Arrow right icon" />
+    </a>
+    {/* Contact Me Button */}
+    <a
+      href="mailto:duncanfinlayson4@gmail.com"
+      className="bg-primary text-white p-2.5 rounded flex gap-2.5 items-center text-sm md:text-xl/6"
+    >
+      Contact
+      <img src="/arrow_right_icon.svg" alt="Arrow right icon" />
+    </a>
+
+    {/* GitHub Button */}
+    <a
+      href="https://github.com/Duncan-Finlayson"
+      className="bg-primary text-white p-2.5 rounded flex gap-2.5 items-center text-sm md:text-xl/6"
+    >
+      <Image
+        src="/github_logo_dark.svg"
+        alt="GitHub icon"
+        width={20}
+        height={20}
+      />
+    </a>
+  </div>
+</Reveal>
+         
+    </div>
   </section>
   )
 }

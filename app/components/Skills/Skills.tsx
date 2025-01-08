@@ -21,14 +21,6 @@ const Skills = () => {
         </div>
     </div>
     <>
-    <Image src="/tech_stack_grid_dark.svg" alt="Background grid dark"
-    width={569}
-    height={373} className="hidden dark:md:block -z-10
-    absolute -left-[135px] -top-[39px]"/>
-    <Image src="/tech_stack_grid.svg" alt="Background grid dark"
-    width={569}
-    height={373} className="hidden dark:hidden md:block -z-10
-    absolute -left-[125px] -top-[39px]"/>
     </>
     
   </SectionContainer>
