@@ -10,7 +10,7 @@ const Hero = () => {
     <div className="flex flex-col gap-[13px] items-center md-gap[34px] md:my-[58px] md:items-start">
       <Reveal initialX={-25}>
         <h1 className="text-2xl/1 text-center font-semibold block md:text-[40px] md:text-start md:inline">
-            <span className="-m1-3"> 👋 </span>
+            <span className="-m1-3"> </span>
             Hey! My name is Duncan Finlayson, I am a{" "} 
             <span className="block text-[27px] highlight mt-2 md:text-[45px] md:inline md:mt-0">Software Developer</span>
         </h1>
@@ -46,6 +46,18 @@ const Hero = () => {
       <Image
         src="/github_logo_dark.svg"
         alt="GitHub icon"
+        width={20}
+        height={20}
+      />
+    </a>
+        {/* Linkedin Button */}
+        <a
+      href="https://www.linkedin.com/in/duncan-finlayson/"
+      className="bg-primary text-white p-2.5 rounded flex gap-2.5 items-center text-sm md:text-xl/6"
+    >
+      <Image
+        src="/linkedIcon.png"
+        alt="Linkedin"
         width={20}
         height={20}
       />

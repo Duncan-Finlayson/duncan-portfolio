@@ -9,7 +9,7 @@ const Projects = () => {
   return <SectionContainer id="projects">
     <div className="section-contents
     mx-6 md:mx-[64px]">
-        <SectionHeader plainText="😎 Some of my" highlightText="Best Works" />
+        <SectionHeader plainText="Some of my" highlightText="Best Works" />
         <div className="lg:w-full grid grid-cols-1 lg:grid-cols-2 gap-10">
             {
                 projects.map((project, id) => (<Project key={id}

@@ -63,7 +63,26 @@ const Contact = () => {
                     width={16}
                     height={17} 
                     className="dark:hidden"/>
-                </a> {/* Add LinkedIn Later */}
+                </a>
+                <a
+                      href="https://www.linkedin.com/in/duncan-finlayson/"
+                      className="bg-grey text-white p-2.5 rounded flex gap-2.5 items-center text-sm md:text-xl/6"
+                    >
+                      <Image
+                        src="/linkedIcon.png"
+                        alt="Linkedin"
+                        width={16}
+                        height={17}
+                        className="hidden dark:block"
+                      />
+                    <Image
+                        src="/linkedinLogoLight.png"
+                        alt="Linkedin Light"
+                        width={16}
+                        height={17}
+                        className="dark:hidden"
+                      />
+                    </a>
                 
             </div>
         </div>
