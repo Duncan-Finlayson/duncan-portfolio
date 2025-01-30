@@ -6,7 +6,28 @@
             "label": "Personal Portfolio",
             "url": "https://github.com/Duncan-Finlayson/duncan-portfolio"
         },
-        "description": "Developed a personal portfolio that displays my work",
+        "description": "Interactive personal portfolio showcasing projects and skills.",
         "languageIcons": ["/css_icon.png", "/html_icon.png", "ts_icon.png", "react_icon.png"]
+    },
+    {
+        "thumbnail": "/GoFundUs.png",
+        "title": "Go Fund Us",
+        "link": {
+            "label": "Go Fund Us",
+            "url": "https://github.com/AlexanderKubarakos/CodenameGoFundUs"
+        },
+        "description": "Decentralized fund management app using blockchain for transparency.",
+        "languageIcons": ["/css_icon.png", "/html_icon.png", "ts_icon.png", "react_icon.png", "Cairo.png"]
+    },
+    {
+        "thumbnail": "/DayTradersDiaryLogo.png",
+        "title": "DayTrader's Diary",
+        "link": {
+            "label": "DayTrader's Diary",
+            "url": "https://github.com/AlexanderKubarakos/DayTraderDiary"
+        },
+        "description": "Educational stock market simulation game to improve financial literacy.",
+        "languageIcons": ["java_icon.png"]
     }
+    
 ]
