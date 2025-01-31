@@ -75,9 +75,9 @@ const Project = ({thumbnail,
             bg-[#b9b9b9] bg-opacity-[24%] rounded text-[14px]">
                 <span className="hidden 
                 md:block"> {link.label}</span>
-                <img src="link_arrow.svg" alt="Link arrow"
+                <img src="github_logo.svg" alt="Link arrow"
                 className=" block dark:hidden"/>
-                <img src="link_arrow_dark.svg" alt="Link arrow"
+                <img src="github_logo_dark.svg" alt="Link arrow"
                 className="hidden dark:block"/>
             </a>
         </div>

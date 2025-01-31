@@ -22,6 +22,14 @@
     {
         "name": "React js",
         "icon": "/react_icon.png"
+    },
+    {
+        "name": "Python",
+        "icon": "/PythonIcon.png"
+    },
+    {
+        "name": "C",
+        "icon": "/CIcon.png"
     }
     
 ]
