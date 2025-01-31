@@ -3,7 +3,6 @@ import skills from "@/data/Skills.json"
 import SectionContainer from '../Section/SectionContainer'
 import SectionHeader from '../Section/SectionHeader'
 import Skill from "./Skill"
-import Image from 'next/image'
 
 const Skills = () => {
   return <SectionContainer id="skills">
