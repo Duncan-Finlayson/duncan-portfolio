@@ -78,7 +78,7 @@ const Hero = () => {
       absolute right-0 -z-10 group-hover:scale-[102%] group-hover:rotate-2 ease-in-out duration-300"/>
       <img src="/Final.png"
       srcSet="/Final.png 1x, /Final@2x.png 2x"
-      alt="Light purple rectangle" width={357}
+      alt="Final Profile" width={357}
       height={536} className="hidden md:block min-w-[357px] h-[536px]
       -z-10 mr-[7.7px] my-[6.5px] group-hover:scale-[102%] group-hover:
       ease-in-out duration-300" loading="lazy"/>
