@@ -8,7 +8,7 @@ const Skills = () => {
   return <SectionContainer id="skills">
     <div className="section-contents mx-[22px] md:mx-[116px]">
         <SectionHeader plainText="These are my" highlightText="Current Technologies" />
-        <div className="card w-full px-[33px] py-[27px] flex flex-wrap md:flex-nowrap 
+        <div className="card w-full px-[20px] sm:px-[33px] py-[20px] sm:py-[27px] flex flex-wrap 
         flex-col md:flex-row justify-center items-center
         gap-[19px] md:gap-[33px]">
             {skills.map((Skills, id) => (
