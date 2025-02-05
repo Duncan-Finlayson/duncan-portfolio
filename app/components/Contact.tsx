@@ -52,7 +52,7 @@ const Contact = () => {
                 Send Message <img src="/mail_icon.svg" alt="Mail icon"></img>
             </a>
             <div className="flex flex-row gap-1">
-                <a href="https://github.com/Duncan-Finlayson" className="contact-button">
+                <a href="https://github.com/Duncan-Finlayson" target="_blank" className="contact-button">
                     <Image src ="/github_logo_dark.svg"
                     alt="Github icon"
                     width={16}
@@ -65,7 +65,7 @@ const Contact = () => {
                     className="dark:hidden"/>
                 </a>
                 <a
-                      href="https://www.linkedin.com/in/duncan-finlayson/"
+                      href="https://www.linkedin.com/in/duncan-finlayson/" target="_blank"
                       className="bg-grey text-white p-2.5 rounded flex gap-2.5 items-center text-sm md:text-xl/6"
                     >
                       <Image

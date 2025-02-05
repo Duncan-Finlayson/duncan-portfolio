@@ -71,11 +71,11 @@ const Project = ({thumbnail,
     <div className="flex flex-col gap-[11px]">
         <div className="flex justify-between items-center">
             <h3 className="font-semibold text-xl md:text-[22px]">{title}</h3>
-            <a href={link.url} className="flex px-[5px] py-[3px] gap-1
+            <a href={link.url} target="_blank" className="flex px-[5px] py-[3px] gap-1
             bg-[#b9b9b9] bg-opacity-[24%] rounded text-[14px]">
                 <span className="hidden 
                 md:block"> {link.label}</span>
-                <img src="github_logo.svg" alt="Link arrow"
+                <img src="github_logo.svg" alt="Link arrow" 
                 className=" block dark:hidden"/>
                 <img src="github_logo_dark.svg" alt="Link arrow"
                 className="hidden dark:block"/>
