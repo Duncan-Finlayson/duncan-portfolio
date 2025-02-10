@@ -23,7 +23,7 @@ const Hero = () => {
   <div className="flex flex-row gap-4 items-center justify-center md:justify-start">
     {/* Contact Me Button */}
         <a
-      href="docs/Duncan_Finlayson_Resume_2025.pdf" target="_blank"
+      href="docs/Duncan_Finlayson_Resume.pdf" target="_blank"
       className="bg-primary text-white p-2.5 rounded flex gap-2.5 items-center text-sm md:text-xl/6"
     >
       Resume
